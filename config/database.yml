@@ -16,11 +16,11 @@ default: &default
 
 development:
   <<: *default
- adapter: mysql2
+  adapter: mysql2
   username: root
   password:
   host: localhost
-database: ajax_app_rails7_development
+  database: ajax_app_rails7_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
